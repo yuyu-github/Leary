@@ -37,6 +37,9 @@ module.exports = {
     'prefer-spread': 'error',
     'prefer-template': 'error',
     'no-console': 'error',
+    'react/jsx-boolean-value': 'error',
+    'react/jsx-curly-brace-presence': 'error',
+    'react/self-closing-comp': ['error', { component: true, html: true }],
   },
   overrides: [
     {
