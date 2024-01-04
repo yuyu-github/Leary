@@ -6,10 +6,12 @@ const StyledApp = styled.div`
   font-family: 'Noto Sans JP', 'Noto Sans', sans-serif;
 `;
 
-export default function App(): React.JSX.Element {
+const App: React.FC = () => {
   return (
     <StyledApp>
       <Outlet />
     </StyledApp>
   );
-}
+};
+
+export default App;
