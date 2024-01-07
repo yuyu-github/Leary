@@ -35,7 +35,6 @@ module.exports = {
     'object-shorthand': 'error',
     'prefer-arrow-callback': ['error', { allowNamedFunctions: true, allowUnboundThis: true }],
     'prefer-spread': 'error',
-    'prefer-template': 'error',
     'no-console': 'error',
     'react/jsx-boolean-value': 'error',
     'react/jsx-curly-brace-presence': 'error',
